@@ -1,9 +1,7 @@
-# Renato-Dushku
+# HTML Website on CPD
 
-First one
+The codes attached are connected to make a website with **HTML and CSS**
 
-Hello everyone
+This work was done by **Renato Dushku** only
 
-**(*very interesting content being displayed*)**
-
-**(very interesting HTLM files displaying)**
+**Copyright Issued**
