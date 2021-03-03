@@ -1,0 +1,118 @@
+@media (max-height:1000px){
+	footer { position: auto; }
+}
+
+/*This manipulates the footer as a whole*/
+.footer {
+	background-color: black;
+
+	text-align: left;
+	font: bold 16px sans-serif; /*size of the footer bar*/
+	padding: 30px /*height*/ 50px 60px 50px;
+	margin-top: 20px;
+	margin-left: -20px;
+	margin-right: -21.5px;
+	margin-bottom: 0px;
+}
+
+.footer a:hover {
+  background-color: none;
+  color: yellow;
+}
+
+.footer-icons a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.footer-left,
+.footer-right{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15vw; /*Moves the elements within the footer*/
+}
+
+/*Footer left*/
+.footer-left{
+	width: 30%;
+}
+
+/*This changes the name within the footer*/
+.footer h3{
+	color:  white;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-left img{
+	width: 50%;
+}
+
+.footer h3 span{
+	color:  red;
+}
+
+/* Footer links */
+/*Fotter links on the left*/
+.footer-links{
+	color:  white;
+	margin: 20px 0 12px;
+}
+/*Fotter links on the left*/
+.footer-links a{
+	display:inline-block;
+	text-decoration: none; /*Removes the line below the tags home etc.*/
+	color: white;
+}
+
+/*Changes the copyright element*/
+.copyright{
+	color:  yellow;
+	font-size: 14px;
+}
+
+
+/* Footer Right */
+.footer-right{
+	width: 30%;
+}
+
+/*This is used to change the about element within the footer*/
+.footer-contact{
+	line-height: 20px;
+	color:  white;
+	font-size: 13px;
+}
+
+/*This changes the 'About webite' element within the footer*/
+.footer-contact span{
+	display: block;
+	color:  yellow;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+/*This manipulates the icons of the links within the footer*/
+.footer-icons{
+	margin-top: 25px;
+}
+
+.footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  gray; /*backgroundcolour of the social media icons*/
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: white; /*colour of the social media icons (inside)*/
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}

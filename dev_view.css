@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/*phone*/
+@media only screen and (max-width: 600px) {
+	#wrapper {
+	width: 100%;	
+	}
+	
+	#topnav {
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	#topnav li {
+		display: block;
+		margin: 0px;
+		margin-top: 5px;
+	}
+
+	
+	#topnav a {
+        display: inline;
+        width: 100%;
+        font-size: 20px;
+        margin-top: 5px;		
+	}
+	
+	#topnav li a {
+		display: inline; /*Sets the navigation bar to inline*/
+		width: 100%;
+		}
+	
+	body {
+		background-color: pink;
+		font-size: 20px;
+	}
+	
+	.desktop {
+		display: none;
+	}
+	
+	.mobile {
+		display: block;
+	}
+} /*end*/
+
+/*desktop*/
+@media only screen and (min-width: 600px) {
+	
+	body {
+		font-size: 1em;
+		background-image: url("metallic_grey.jpg");
+	}
+	
+	.desktop {
+		display: block;
+	}
+	
+	.mobile {
+		display: none;
+	}
+	
+
+	
+}/*end*/
+
+.test {
+    border: 1px solid black;
+    font-size: 2em;	
+}
